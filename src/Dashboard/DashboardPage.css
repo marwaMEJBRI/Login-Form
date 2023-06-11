@@ -1,0 +1,38 @@
+.navbar {
+  background-image: linear-gradient(-225deg, #e3fdf5 50%, #ffe6fa 50%);
+  transition: all 0.3s;
+}
+
+.btn-logOut {
+  border: none;
+  background-color: transparent;
+  padding: 17px;
+  color: #375777;
+  font-weight: 500;
+}
+
+.card-img {
+  width: 120%;
+  object-fit: contain;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.container-card{
+  margin-top: 10%;
+}
+
+.card-box{
+  box-shadow: rgb(45 79 129 / 14%) 0px 2px 8px 0px;
+  border: none;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  color: #375777;
+  font-weight: 500;
+}

@@ -1,0 +1,113 @@
+.login-form-box{
+    text-align: center;
+    display: grid;
+    place-items: center; 
+    height: 100vh;
+}
+
+.login-form-sous-box{
+    position: relative;
+    width: 390px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: hsla(20, 67%, 75%, 0.31) 0px 4px 12px;
+    padding: 2%;
+    background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+}
+
+.login-form-sous-box-container{
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-title{
+    color: #375777;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.form-input-text{
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #d7d2d2;
+    color: #375777;
+}
+
+.form-input-text::placeholder{
+    color: #375777;
+}
+
+.form-input-text:focus {
+    outline: none;
+}
+
+.input-form{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.checkbox-input{
+    text-align: center
+}
+
+/* .checkbox-input-span{
+    padding-left: 5px;
+    font-weight: 500;
+    color: #375777;
+} */
+
+.btn-submit{
+    border: none;
+    padding: 5px;
+    width: 100%;
+    background: rgb(98 142 187 / 20%);
+}
+
+.checkbox-input-groupe{
+    text-align: left;
+    padding-left: 1px;
+}
+
+.msg-errors{
+    font-size: 13px;
+    font-weight: 500;
+    color: red;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+.alert-success {
+    --bs-alert-color: #0f5132;
+    --bs-alert-bg: #d1e7dd;
+    --bs-alert-border-color: #badbcc;
+    padding-bottom: 0px !important;
+    margin-top: 20px !important;
+}
+
+.display-none{
+    display: none;
+}
+
+.remember-me-text{
+    padding-left: 5px;
+    font-weight: 500;
+    color: #375777;
+}
+
+@media screen and (max-width: 625px) {
+    .login-form-sous-box{
+        place-items: normal;
+        height: 150vh;
+    }
+
+    .login-form-sous-box-container{
+        top: 45%;
+    }
+}
+
+
